@@ -696,6 +696,10 @@ h2.with-back span {
     margin-top: 25px;
   }
 
+  .application__inner-items {
+    margin-top: 35px;
+}
+
   .application__inner-item {
     font-size: 12px;
     line-height: 16px;
@@ -705,6 +709,10 @@ h2.with-back span {
   .application__inner-content {
     padding-left: 10px;
     margin-top: 40px;
+  }
+
+  .application__inner-content-title {
+      line-height: 24px;
   }
   .application__inner-description {
     margin-top: 0px;
