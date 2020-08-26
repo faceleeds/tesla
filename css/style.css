@@ -231,7 +231,7 @@ body {
 }
 
 .application {
-    -webkit-box-shadow: inset 0 -10px 22px -10px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: inset 0 -10px 22px -10px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: inset 0 -10px 22px -10px rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -10px 22px -10px rgba(0, 0, 0, 0.15);
 }
@@ -240,15 +240,17 @@ body {
   max-width: 1800px;
   margin: 0 auto;
   padding: 0 15px;
-  
 }
 
 .application__inner {
-  height: 100vh;
+  /* height: 100vh; */
+  /* width: 100%; */
+  height: auto;
   background-image: url(../images/bgc_1.png);
   background-repeat: no-repeat;
-  background-position: 10% 170px;
+  background-position: 10% 100%;
   background-size: 50% auto;
+  padding-bottom: 80px;
 }
 
 .application__inner-top {
@@ -258,6 +260,16 @@ body {
   font-size: 28px;
   line-height: 26px;
 }
+
+.applictaion__mob-bgc {
+  height: 480px;
+  background-image: url(../images/bgc_1.png);
+  background-repeat: no-repeat;
+  background-position: 160% 100%;
+  display: none;
+  background-size: 80%;
+}
+
 h2 {
   font-size: 40px;
   line-height: 32px;
@@ -350,6 +362,14 @@ h2.with-back span {
   left: 0;
 }
 
+@media (max-width: 1650px) {
+  .application__inner {
+    background-size: 45% auto;
+    /* height: 730px; */
+    height: auto;
+  }
+}
+
 @media (max-width: 1440px) {
   .middle__title {
     margin-bottom: 70px;
@@ -378,11 +398,45 @@ h2.with-back span {
   .btn {
     min-width: 295px;
   }
+
+  h2 {
+    font-size: 28px;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+  }
+
+  .application__inner-top,
+  .application__inner-description,
+  .application__inner-item {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  h2.with-back span {
+    top: -5px;
+    font-size: 64px;
+  }
+
+  .application__inner-title {
+    margin-top: 60px;
+  }
+  .application__inner {
+    background-size: 45% auto;
+    /* height: 655px; */
+  }
+
+  .application__inner-description {
+    margin-top: 24px;
+  }
+
+  .application__inner-items {
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 1380px) {
   .application__inner {
-    background-position: 10% 284px;
+    background-position: 10% 100%;
   }
 
   .application__inner-item {
@@ -392,7 +446,15 @@ h2.with-back span {
 
 @media (max-width: 1200px) {
   .application__inner {
-    background-position: 10% 320px;
+    /* background-position: 0 100%; */
+  }
+
+  .application__inner-item {
+    font-size: 20px;
+  }
+
+  .application__inner-content {
+    max-width: 55%;
   }
 }
 
@@ -416,6 +478,27 @@ h2.with-back span {
 
   .middle__items {
     width: 55%;
+  }
+
+  .application__inner-top,
+  .application__inner-description {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 820px) {
+  .application__inner {
+    background-image: none;
+    padding-bottom: 0;
+  }
+
+  .applictaion__mob-bgc {
+    display: block;
+  }
+
+  .application__inner-content {
+    max-width: 100%;
+    padding-left: 40px;
   }
 }
 
@@ -476,9 +559,30 @@ h2.with-back span {
     min-width: 100px;
   }
 
+  .application__inner-item {
+    font-size: 22px;
+  }
+
   .bottom {
     background-image: url(none);
     position: relative;
+  }
+}
+
+@media (max-width: 684px) {
+  .application__inner-item {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .applictaion__mob-bgc {
+    height: 380px;
+  }
+}
+
+@media (max-width: 512px) {
+  .applictaion__mob-bgc {
+    height: 320px;
   }
 }
 
@@ -565,6 +669,34 @@ h2.with-back span {
     padding-bottom: 30px;
   }
 
+  .application__inner-top,
+  .application__inner-description {
+    font-size: 12px;
+  }
+
+  .application__inner-title,
+  .application__inner-content-title {
+    font-size: 18px;
+    letter-spacing: 0.9px;
+  }
+
+  h2.with-back span {
+    font-size: 42px;
+  }
+
+  .application__inner-item {
+   font-size: 12px;
+   line-height: 16px;
+}
+
+  .application__inner-content {
+    padding-left: 10px;
+  }
+
+  .applictaion__mob-bgc {
+    height: 260px;
+  }
+
   .footer__link {
     font-size: 8px;
     line-height: 16px;
@@ -576,5 +708,11 @@ h2.with-back span {
 
   .bottom__items {
     margin-left: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .applictaion__mob-bgc {
+    height: 195px;
   }
 }
