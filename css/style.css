@@ -572,11 +572,15 @@ h2.with-back span {
 @media (max-width: 684px) {
   .application__inner-item {
     width: 100%;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
   }
 
   .applictaion__mob-bgc {
     height: 380px;
+  }
+
+  .application__inner-item::before {
+    top: -10px;
   }
 }
 
@@ -674,6 +678,10 @@ h2.with-back span {
     font-size: 12px;
   }
 
+  .application__inner-top {
+    padding-top: 30px;
+  }
+
   .application__inner-title,
   .application__inner-content-title {
     font-size: 18px;
@@ -684,13 +692,22 @@ h2.with-back span {
     font-size: 42px;
   }
 
+  .application__inner-title {
+    margin-top: 25px;
+  }
+
   .application__inner-item {
-   font-size: 12px;
-   line-height: 16px;
-}
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 40px;
+  }
 
   .application__inner-content {
     padding-left: 10px;
+    margin-top: 40px;
+  }
+  .application__inner-description {
+    margin-top: 0px;
   }
 
   .applictaion__mob-bgc {
