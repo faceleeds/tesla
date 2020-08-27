@@ -329,7 +329,7 @@ h2.with-back span {
   font-weight: 500;
   font-size: 28px;
   line-height: 32px;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .application__inner-items {
@@ -370,11 +370,6 @@ h2.with-back span {
   padding-top: 145px;
 }
 
-.goals__title,
-.goals__description {
-  margin: 0 auto;
-}
-
 .blocks.blocks__light-gray-top {
   margin-bottom: 50px;
 }
@@ -404,7 +399,7 @@ h2.with-back span {
   width: 25%;
 }
 
-.blocks:nth-last-child(4) {
+.blocks__item-img--pos{
   width: 30%;
 }
 
@@ -476,10 +471,6 @@ h2.with-back span {
   .application__inner {
     background-size: 45% auto;
     /* height: 655px; */
-  }
-
-  .application__inner-description {
-    margin-top: 24px;
   }
 
   .application__inner-items {
