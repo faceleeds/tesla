@@ -622,19 +622,19 @@ h2.with-back span {
   }
 
   .blocks__item {
+    height: 140px;
+    align-items: center;
     display: flex;
     flex: 0 1 100%;
-    margin-bottom: 30px;
-    align-items: center;
-  }
-
-  .blocks__item-icon {
-    width: 56px;
   }
 
   .blocks__item-img {
-    width: auto;
-    margin-right: 15px;
+    width: 100px;
+  }
+
+  .block_type_icon__text {
+    margin-left: 20px;
+    /* max-width: 190px; */
   }
 }
 
