@@ -792,6 +792,27 @@ h2.with-back span {
     height: 210px;
   }
 
+  .block_type_icon__text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .blocks__item {
+    height: 80px;
+  }
+
+  .blocks__item-img {
+    width: 56px;
+  }
+
+  .blocks__item {
+    margin-bottom: 20px;
+  }
+
+  .blocks__item-icon {
+    min-height: 70px;
+  }
+
   .footer__link {
     font-size: 8px;
     line-height: 16px;
