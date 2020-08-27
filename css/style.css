@@ -312,7 +312,7 @@ h2.with-back span {
 }
 
 .application__inner-content {
-  max-width: 50%;
+  max-width: 55%;
   margin-left: auto;
   margin-top: 50px;
 }
@@ -321,7 +321,7 @@ h2.with-back span {
   text-align: left;
   margin-bottom: 0;
   padding-bottom: 0;
-  line-height: 38px;
+  line-height: 45px;
   max-width: 520px;
 }
 
@@ -329,7 +329,7 @@ h2.with-back span {
   font-weight: 500;
   font-size: 28px;
   line-height: 32px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .application__inner-items {
@@ -362,11 +362,64 @@ h2.with-back span {
   left: 0;
 }
 
+.goals__inner {
+  padding: 0 30px;
+}
+
+.goals__title {
+  padding-top: 145px;
+}
+
+.goals__title,
+.goals__description {
+  margin: 0 auto;
+}
+
+.blocks.blocks__light-gray-top {
+  margin-bottom: 50px;
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  flex-wrap: wrap;
+  /* padding-left: 50px; */
+}
+
+.blocks__item {
+  text-align: left;
+  flex: 0 1 320px;
+  margin-bottom: 30px;
+}
+
+.blocks__item-icon {
+  display: flex;
+  min-height: 90px;
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+
+.blocks__item-img {
+  width: 25%;
+}
+
+.blocks:nth-last-child(4) {
+  width: 30%;
+}
+
 @media (max-width: 1650px) {
   .application__inner {
     background-size: 45% auto;
     /* height: 730px; */
     height: auto;
+  }
+}
+
+@media (max-width: 1523px) {
+  .goals__title,
+  .goals__description {
+    text-align: center;
   }
 }
 
@@ -567,6 +620,22 @@ h2.with-back span {
     background-image: url(none);
     position: relative;
   }
+
+  .blocks__item {
+    display: flex;
+    flex: 0 1 100%;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+
+  .blocks__item-icon {
+    width: 56px;
+  }
+
+  .blocks__item-img {
+    width: auto;
+    margin-right: 15px;
+  }
 }
 
 @media (max-width: 684px) {
@@ -676,6 +745,7 @@ h2.with-back span {
   .application__inner-top,
   .application__inner-description {
     font-size: 12px;
+    line-height: 16px;
   }
 
   .application__inner-top {
@@ -698,7 +768,7 @@ h2.with-back span {
 
   .application__inner-items {
     margin-top: 35px;
-}
+  }
 
   .application__inner-item {
     font-size: 12px;
@@ -712,10 +782,10 @@ h2.with-back span {
   }
 
   .application__inner-content-title {
-      line-height: 24px;
+    line-height: 24px;
   }
   .application__inner-description {
-    margin-top: 0px;
+    margin-top: 15px;
   }
 
   .applictaion__mob-bgc {
