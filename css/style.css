@@ -399,7 +399,7 @@ h2.with-back span {
   width: 25%;
 }
 
-.blocks__item-img--pos{
+.blocks__item-img--pos {
   width: 30%;
 }
 
@@ -408,13 +408,6 @@ h2.with-back span {
     background-size: 45% auto;
     /* height: 730px; */
     height: auto;
-  }
-}
-
-@media (max-width: 1523px) {
-  .goals__title,
-  .goals__description {
-    text-align: center;
   }
 }
 
@@ -627,6 +620,15 @@ h2.with-back span {
     margin-left: 20px;
     /* max-width: 190px; */
   }
+
+  .goals__title {
+    font-size: 18px;
+  }
+
+  .goals__title,
+  .goals__description {
+    text-align: center;
+  }
 }
 
 @media (max-width: 684px) {
@@ -783,6 +785,10 @@ h2.with-back span {
     height: 210px;
   }
 
+  .blocks {
+    margin-top: 30px;
+  }
+
   .block_type_icon__text {
     font-size: 12px;
     line-height: 16px;
@@ -803,6 +809,14 @@ h2.with-back span {
   .blocks__item-icon {
     min-height: 70px;
   }
+
+  .goals__title {
+    padding-top: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
 
   .footer__link {
     font-size: 8px;
