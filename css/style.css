@@ -368,9 +368,12 @@ h2.with-back span {
 
 .goals__title {
   padding-top: 145px;
+  text-align: left;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-.blocks.blocks__light-gray-top {
+.blocks{
   margin-bottom: 50px;
 }
 
@@ -379,7 +382,6 @@ h2.with-back span {
   justify-content: space-between;
   margin-top: 60px;
   flex-wrap: wrap;
-  /* padding-left: 50px; */
 }
 
 .blocks__item {
@@ -401,6 +403,14 @@ h2.with-back span {
 
 .blocks__item-img--pos {
   width: 30%;
+}
+
+.app__bnt-description {
+  text-align: center;
+}
+
+.app__bnt-description {
+  margin-bottom: 90px;
 }
 
 @media (max-width: 1650px) {
@@ -814,9 +824,7 @@ h2.with-back span {
     padding-top: 40px;
     padding-bottom: 0;
     margin-bottom: 0;
-}
-
-
+  }
 
   .footer__link {
     font-size: 8px;
