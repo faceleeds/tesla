@@ -458,7 +458,7 @@ h2.with-back span {
   justify-content: space-evenly;
   align-items: center;
   padding: 50px 20px 20px;
-  margin-bottom: 350px;
+  margin-bottom: 150px;
 }
 
 @media (max-width: 1650px) {
