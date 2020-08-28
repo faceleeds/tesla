@@ -37,7 +37,7 @@ body {
 .container__inner {
   max-width: 1465px;
   margin: 0 auto;
-  /* padding: 20px; */
+  position: relative;
 }
 
 .top {
@@ -112,6 +112,14 @@ body {
 
 .btn + .btn {
   margin-left: 125px;
+}
+.app__btn {
+  display: flex;
+  justify-content: center;
+}
+
+.app__btn-inner {
+  text-align: center;
 }
 
 .header__top {
@@ -373,7 +381,7 @@ h2.with-back span {
   padding-bottom: 0;
 }
 
-.blocks{
+.blocks {
   margin-bottom: 50px;
 }
 
@@ -405,13 +413,36 @@ h2.with-back span {
   width: 30%;
 }
 
+.app__bnt {
+  display: flex;
+  justify-content: center;
+}
+
 .app__bnt-description {
   text-align: center;
 }
 
 .app__bnt-description {
-  margin-bottom: 90px;
+  margin-bottom: 96px;
 }
+
+.app__btn-inner {
+  display: inline-block;
+  background-color: #ffdc5d;
+  border-radius: 28px;
+  border: none;
+  font-size: 26px;
+  line-height: 32px;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  outline: none;
+  min-width: 342px;
+  padding: 15px 50px;
+  text-decoration: none;
+  color: #000;
+}
+
 
 @media (max-width: 1650px) {
   .application__inner {
@@ -639,6 +670,12 @@ h2.with-back span {
   .goals__description {
     text-align: center;
   }
+
+  .app__btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+  } 
 }
 
 @media (max-width: 684px) {
