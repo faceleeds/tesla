@@ -916,6 +916,10 @@ h2.with-back span {
   .app__btn-inner {
     margin-bottom: 25px;
   }
+  
+  .partners {
+    padding: 10px 20px 20px;
+}
 }
 
 @media (max-width: 360px) {
